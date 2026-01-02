@@ -1,0 +1,66 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "myname:vallumraptor_plushie_placed",
+      "is_spawnable": true,
+      "is_summonable": true
+    },
+    "components": {
+      "minecraft:collision_box": {
+        "width": 0.7,
+        "height": 0.8
+      },
+      "minecraft:health": {
+        "value": 1,
+        "max": 1
+      },
+      "minecraft:physics": {
+        "has_gravity": false,
+        "has_collision": true
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": true
+      },
+      "minecraft:damage_sensor": {
+        "triggers": [
+          {
+            "cause": "all",
+            "deals_damage": false
+          }
+        ]
+      },
+      "minecraft:persistent": {},
+      "minecraft:interact": {
+        "interactions": [
+          {
+            "on_interact": {
+              "event": "myname:pickup",
+              "target": "self",
+              "filters": {
+                "all_of": [
+                  {
+                    "test": "is_sneaking",
+                    "subject": "other",
+                    "value": true
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "events": {
+      "myname:pickup": {
+        "run_command": {
+          "command": [
+            "give @p[r=2] myname:vallumraptor_plushie 1",
+            "kill @s"
+          ]
+        }
+      }
+    }
+  }
+}

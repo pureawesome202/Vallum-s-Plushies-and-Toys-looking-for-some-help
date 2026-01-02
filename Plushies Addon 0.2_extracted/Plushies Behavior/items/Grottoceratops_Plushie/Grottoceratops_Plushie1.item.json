@@ -1,0 +1,20 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "myname:Grottoceratops_Plushie1",
+			"menu_category": {
+				"category": "equipment"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": {
+				"texture": "Grottoceratops_Plushie1"
+			},
+			"minecraft:entity_placer": {
+				"entity": "Grottoceratops_Plushie"
+			}
+		}
+	}
+}

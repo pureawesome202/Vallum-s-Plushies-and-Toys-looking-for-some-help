@@ -1,0 +1,20 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "myname:vallumraptor_plushie",
+			"menu_category": {
+				"category": "equipment"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": {
+				"texture": "vallumraptor_plushie"
+			},
+			"minecraft:entity_placer": {
+				"entity": "myname:vallumraptor_plushie_placed"
+			}
+		}
+	}
+}

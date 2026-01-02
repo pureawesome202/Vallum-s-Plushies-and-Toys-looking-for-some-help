@@ -1,0 +1,20 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "myname:plush_tremersaurus_7",
+			"menu_category": {
+				"category": "equipment"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": {
+				"texture": "tremer_7"
+			},
+			"minecraft:entity_placer": {
+				"entity": "plush_tremersaurus_7"
+			}
+		}
+	}
+}

@@ -1,0 +1,115 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.vallumraptor_plushie.first_person_hold": {
+			"loop": true,
+			"bones": {
+				"Item": {
+					"rotation": [20, 0, -150],
+					"position": [-1, 25, 0]
+				},
+				"Plushie_Bone": {
+					"rotation": [0, 0, -155],
+					"position": [0, 25, 5]
+				},
+				"Plush_Bone": {
+					"rotation": [0, 0, -150],
+					"position": [0, 24, 6]
+				}
+			}
+		},
+		"animation.vallumraptor_plushie.third_person_hold": {
+			"loop": true,
+			"bones": {
+				"Item": {
+					"position": [0, 15, -3]
+				},
+				"Plushie_Bone": {
+					"position": [0, 12, -1],
+					"scale": 0.8
+				},
+				"Plush_Bone": {
+					"position": [0, 11, 0]
+				},
+				"All_Item": {
+					"position": [0, 4, 0]
+				},
+				"Item_All_relicher": {
+					"position": [4, 4, 1]
+				},
+				"subter": {
+					"position": [0, 5, -1]
+				}
+			}
+		},
+		"animation.v.first_person_hold": {
+			"loop": true,
+			"animation_length": 0.375,
+			"bones": {
+				"All": {
+					"rotation": [11.70844, -12.26337, -4.59857],
+					"position": [0, -8, 0]
+				}
+			}
+		},
+		"animation.v.third_person_hold": {
+			"loop": true
+		},
+		"animation.plush_v.first_person_hold": {
+			"loop": true,
+			"animation_length": 2.4167,
+			"bones": {
+				"Itemhead": {
+					"rotation": [22.5, 0, 0],
+					"position": [0, 0, 1]
+				},
+				"ItemRL": {
+					"rotation": [10, 0, 0]
+				},
+				"ItemLL": {
+					"rotation": [10, 0, 0]
+				},
+				"Itemtail": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.2083": [-15, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.2083": [0, 0, -1]
+					}
+				},
+				"Itemright": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.2083": [7.5, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.2083": [0, 1, 0]
+					}
+				},
+				"Itemleft": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.2083": [7.5, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.2083": [0, 1, 0]
+					}
+				},
+				"All": {
+					"rotation": [-5.24133, -17.43127, 1.5741],
+					"position": {
+						"0.0": [-1, -9, -1],
+						"0.6667": [1, -8, -2]
+					}
+				}
+			}
+		},
+		"animation.plush_v.third_person_hold": {
+			"loop": true
+		}
+	}
+}

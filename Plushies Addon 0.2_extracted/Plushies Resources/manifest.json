@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Grottoceratops Plushie",
+		"description": "Plushies Resource Pack",
+		"uuid": "b497a6f5-6961-4f7f-8119-0d42693184af",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["Mr. Vallumraptor Elder"],
+		"generated_with": {
+			"blockbench_item_wizard": ["1.2.0"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Plushies",
+			"type": "resources",
+			"uuid": "032db03c-5a42-49a2-8de1-f3e26bf4043e",
+			"version": [1, 0, 0]
+		}
+	]
+}

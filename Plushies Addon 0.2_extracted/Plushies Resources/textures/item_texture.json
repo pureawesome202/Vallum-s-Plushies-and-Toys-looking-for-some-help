@@ -1,0 +1,118 @@
+{
+	"texture_data": {
+		"vallumraptor_plushie": {
+			"textures": "textures/items/vallumraptor_plushie"
+		},
+		"vallumraptor_plushie_1_6": {
+			"textures": "textures/items/vallumraptor_plushie_1_6"
+		},
+		"vallumraptor_plushie_1_7": {
+			"textures": "textures/items/vallumraptor_plushie_1_7"
+		},
+		"vallumraptor_plushie_1_66": {
+			"textures": "textures/items/vallumraptor_plushie_1_66"
+		},
+		"vallumraptor_plushie_2": {
+			"textures": "textures/items/vallumraptor_plushie_2"
+		},
+		"vallumraptor_plushie_3_1": {
+			"textures": "textures/items/vallumraptor_plushie_3_1"
+		},
+		"vallumraptor_plushie_3_2": {
+			"textures": "textures/items/vallumraptor_plushie_3_2"
+		},
+		"vallumraptor_plushie_4": {
+			"textures": "textures/items/vallumraptor_plushie_4"
+		},
+		"vallumraptor_plushie_8": {
+			"textures": "textures/items/vallumraptor_plushie_8"
+		},
+		"vallumraptor_plushie_2_2": {
+			"textures": "textures/items/vallumraptor_plushie_2_2"
+		},
+		"vallumraptor_plushie_7": {
+			"textures": "textures/items/vallumraptor_plushie_7"
+		},
+		"vallumraptor_plushies_1_1": {
+			"textures": "textures/items/vallumraptor_plushies_1_1"
+		},
+		"aquatitan_base_texture": {
+			"textures": "textures/items/aquatitan_base_texture"
+		},
+		"aquatitan_amber_texture": {
+			"textures": "textures/items/aquatitan_amber_texture"
+		},
+		"LUX_texture": {
+			"textures": "textures/items/LUX_texture"
+		},
+		"aquatitan_tectonic_texture": {
+			"textures": "textures/items/aquatitan_tectonic_texture"
+		},
+		"sunny_edition_aquatitan": {
+			"textures": "textures/items/sunny_edition_aquatitan"
+		},
+		"Grottoceratops_Plushie": {
+			"textures": "textures/items/Grottoceratops_Plushie"
+		},
+		"Grottoceratops_Plushie1": {
+			"textures": "textures/items/Grottoceratops_Plushie1"
+		},
+		"Grottoceratops_Plushie2": {
+			"textures": "textures/items/Grottoceratops_Plushie2"
+		},
+		"Grottoceratops_Plushie3": {
+			"textures": "textures/items/Grottoceratops_Plushie3"
+		},
+		"tremer_1": {
+			"textures": "textures/items/Tremer_1"
+		},
+		"tremer_2": {
+			"textures": "textures/items/Tremer_2"
+		},
+		"tremer_3": {
+			"textures": "textures/items/Tremer_3"
+		},
+		"tremer_4": {
+			"textures": "textures/items/Tremer_4"
+		},
+		"tremer_5": {
+			"textures": "textures/items/Tremer_5"
+		},
+		"tremer_6": {
+			"textures": "textures/items/Tremer_6"
+		},
+		"tremer_7": {
+			"textures": "textures/items/Tremer_7"
+		},
+		"tremer_8": {
+			"textures": "textures/items/Tremer_8"
+		},
+		"plush_relicheirus1": {
+			"textures": "textures/items/Plush_Relicheirus1"
+		},
+		"plush_relicheirus2": {
+			"textures": "textures/items/Plush_Relicheirus2"
+		},
+		"plush_relicheirus3": {
+			"textures": "textures/items/Plush_Relicheirus3"
+		},
+		"plush_relicheirus4": {
+			"textures": "textures/items/Plush_Relicheirus4"
+		},
+		"plush_subteranadon": {
+			"textures": "textures/items/Plush_Subteranadon"
+		},
+		"plush_subteranadon1": {
+			"textures": "textures/items/Plush_Subteranadon1"
+		},
+		"plush_subteranadon2": {
+			"textures": "textures/items/Plush_Subteranadon2"
+		},
+		"1000086515": {
+			"textures": "textures/items/1000086515"
+		},
+		"1000086516": {
+			"textures": "textures/items/1000086516"
+		}
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Grottoceratops Plushie",
+		"description": "Plushies Behavior Pack",
+		"uuid": "cc3d7877-f107-45df-8bc6-24eb035dfd66",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 20, 0]
+	},
+	"metadata": {
+		"authors": ["Mr. Vallumraptor Elder"],
+		"generated_with": {
+			"blockbench_item_wizard": ["1.2.0"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "854a9b40-66e4-4e17-bce2-aeaa29103960",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "b497a6f5-6961-4f7f-8119-0d42693184af",
+			"version": [1, 0, 0]
+		}
+	]
+}
