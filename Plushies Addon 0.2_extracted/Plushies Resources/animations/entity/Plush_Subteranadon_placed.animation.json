@@ -5,7 +5,7 @@
       "loop": true,
       "animation_length": 2.0,
       "bones": {
-        "root": {
+        "Plushie_Bone": {
           "rotation": {
             "0.0": [
               0,
