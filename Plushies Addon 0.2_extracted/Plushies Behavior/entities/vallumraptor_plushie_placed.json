@@ -3,25 +3,25 @@
   "minecraft:entity": {
     "description": {
       "identifier": "myname:vallumraptor_plushie_placed",
-      "is_spawnable": true,
+      "is_spawnable": false,
       "is_summonable": true
     },
     "components": {
       "minecraft:collision_box": {
-        "width": 0.7,
-        "height": 0.8
+        "width": 0.5,
+        "height": 0.5
       },
       "minecraft:health": {
         "value": 1,
         "max": 1
       },
       "minecraft:physics": {
-        "has_gravity": false,
+        "has_gravity": true,
         "has_collision": true
       },
       "minecraft:pushable": {
         "is_pushable": false,
-        "is_pushable_by_piston": true
+        "is_pushable_by_piston": false
       },
       "minecraft:damage_sensor": {
         "triggers": [
@@ -31,22 +31,23 @@
           }
         ]
       },
+      "minecraft:knockback_resistance": {
+        "value": 1.0
+      },
       "minecraft:persistent": {},
       "minecraft:interact": {
         "interactions": [
           {
+            "interact_text": "action.hint.pickup",
+            "swing": true,
             "on_interact": {
-              "event": "myname:pickup",
-              "target": "self",
               "filters": {
-                "all_of": [
-                  {
-                    "test": "is_sneaking",
-                    "subject": "other",
-                    "value": true
-                  }
-                ]
-              }
+                "test": "is_sneaking",
+                "subject": "other",
+                "value": true
+              },
+              "event": "myname:pickup",
+              "target": "self"
             }
           }
         ]
@@ -54,9 +55,9 @@
     },
     "events": {
       "myname:pickup": {
-        "run_command": {
+        "queue_command": {
           "command": [
-            "give @p[r=2] myname:vallumraptor_plushie 1",
+            "give @s[type=player] myname:vallumraptor_plushie 1",
             "kill @s"
           ]
         }

@@ -1,5 +1,5 @@
 {
-  "format_version": "1.20.50",
+  "format_version": "1.10.0",
   "minecraft:client_entity": {
     "description": {
       "identifier": "myname:vallumraptor_plushie_placed",
@@ -10,11 +10,15 @@
         "default": "textures/entity/attachable/vallumraptor_plushie"
       },
       "geometry": {
-        "default": "geometry.vallumraptor_plushie"
+        "default": "geometry.vallumraptor_plushie_placed"
       },
       "render_controllers": [
         "controller.render.default"
       ],
+      "spawn_egg": {
+        "base_color": "#553399",
+        "overlay_color": "#88CCFF"
+      },
       "animations": {
         "idle": "animation.vallumraptor_plushie_placed.idle"
       },
