@@ -13,7 +13,7 @@
 				"texture": "LUX_texture"
 			},
 			"minecraft:entity_placer": {
-				"entity": "LUX_texture"
+				"entity": "myname:LUX_texture_placed"
 			}
 		}
 	}

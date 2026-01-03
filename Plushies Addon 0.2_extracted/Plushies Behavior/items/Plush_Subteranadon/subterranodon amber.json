@@ -13,7 +13,7 @@
 				"texture": "plush_subteranadon1"
 			},
 			"minecraft:entity_placer": {
-				"entity": "plush_subterranodon_amber"
+				"entity": "myname:plush_subteranodon_amber_placed"
 			}
 		}
 	}

@@ -13,7 +13,7 @@
 				"texture": "sunny_edition_aquatitan"
 			},
 			"minecraft:entity_placer": {
-				"entity": "sunny_edition_aquatitan"
+				"entity": "myname:sunny_edition_aquatitan_placed"
 			}
 		}
 	}

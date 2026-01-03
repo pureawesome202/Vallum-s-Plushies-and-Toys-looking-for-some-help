@@ -13,7 +13,7 @@
 				"texture": "tremer_3"
 			},
 			"minecraft:entity_placer": {
-				"entity": "plush_tremersaurus_3"
+				"entity": "myname:plush_tremersaurus_3_placed"
 			}
 		}
 	}

@@ -13,7 +13,7 @@
 				"texture": "plush_subteranadon2"
 			},
 			"minecraft:entity_placer": {
-				"entity": "plush_subterranodon_tectonic"
+				"entity": "myname:plush_subteranodon_tectonic_placed"
 			}
 		}
 	}

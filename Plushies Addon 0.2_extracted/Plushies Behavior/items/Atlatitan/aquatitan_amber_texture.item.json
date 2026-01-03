@@ -13,7 +13,7 @@
 				"texture": "aquatitan_amber_texture"
 			},
 			"minecraft:entity_placer": {
-				"entity": "aquatitan_amber_texture"
+				"entity": "myname:aquatitan_amber_texture_placed"
 			}
 		}
 	}

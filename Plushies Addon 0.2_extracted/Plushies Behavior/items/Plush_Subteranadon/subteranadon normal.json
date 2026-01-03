@@ -13,7 +13,7 @@
 				"texture": "plush_subteranadon"
 			},
 			"minecraft:entity_placer": {
-				"entity": "plush_subteranadon_normal"
+				"entity": "myname:plush_subteranadon_normal_placed"
 			}
 		}
 	}

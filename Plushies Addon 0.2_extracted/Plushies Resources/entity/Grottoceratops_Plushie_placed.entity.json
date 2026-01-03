@@ -1,0 +1,32 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "myname:Grottoceratops_Plushie_placed",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/attachable/Grottoceratops_Plushie/texture"
+      },
+      "geometry": {
+        "default": "geometry.Grottoceratops_Plushie_placed"
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#553399",
+        "overlay_color": "#88CCFF"
+      },
+      "animations": {
+        "idle": "animation.Grottoceratops_Plushie_placed.idle"
+      },
+      "scripts": {
+        "animate": [
+          "idle"
+        ]
+      }
+    }
+  }
+}

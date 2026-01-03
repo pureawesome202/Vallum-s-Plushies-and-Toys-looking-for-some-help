@@ -13,7 +13,7 @@
 				"texture": "Grottoceratops_Plushie1"
 			},
 			"minecraft:entity_placer": {
-				"entity": "Grottoceratops_Plushie"
+				"entity": "myname:Grottoceratops_Plushie1_placed"
 			}
 		}
 	}

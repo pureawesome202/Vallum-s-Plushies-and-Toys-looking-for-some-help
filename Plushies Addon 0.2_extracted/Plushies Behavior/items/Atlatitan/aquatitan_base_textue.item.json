@@ -13,7 +13,7 @@
 				"texture": "aquatitan_base_texture"
 			},
 			"minecraft:entity_placer": {
-				"entity": "aquatitan_base_texture"
+				"entity": "myname:aquatitan_base_texture_placed"
 			}
 		}
 	}

@@ -1,0 +1,32 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "myname:plush_tremersaurus_5_placed",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/attachable/Plush_Tremersaurus/tremer_5"
+      },
+      "geometry": {
+        "default": "geometry.Plush_Tremersaurus_placed"
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#553399",
+        "overlay_color": "#88CCFF"
+      },
+      "animations": {
+        "idle": "animation.Plush_Tremersaurus_placed.idle"
+      },
+      "scripts": {
+        "animate": [
+          "idle"
+        ]
+      }
+    }
+  }
+}

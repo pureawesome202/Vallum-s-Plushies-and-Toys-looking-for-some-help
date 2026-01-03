@@ -13,7 +13,7 @@
 				"texture": "1000086516"
 			},
 			"minecraft:entity_placer": {
-				"entity": "plush_subteranadon_2"
+				"entity": "myname:plush_subteranadon_2_placed"
 			}
 		}
 	}

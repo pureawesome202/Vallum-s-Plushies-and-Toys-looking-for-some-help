@@ -1,0 +1,67 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "myname:aquatitan_tectonic_texture_placed",
+      "is_spawnable": false,
+      "is_summonable": true
+    },
+    "components": {
+      "minecraft:collision_box": {
+        "width": 0.5,
+        "height": 0.5
+      },
+      "minecraft:health": {
+        "value": 1,
+        "max": 1
+      },
+      "minecraft:physics": {
+        "has_gravity": true,
+        "has_collision": true
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": false
+      },
+      "minecraft:damage_sensor": {
+        "triggers": [
+          {
+            "cause": "all",
+            "deals_damage": false
+          }
+        ]
+      },
+      "minecraft:knockback_resistance": {
+        "value": 1.0
+      },
+      "minecraft:persistent": {},
+      "minecraft:interact": {
+        "interactions": [
+          {
+            "interact_text": "action.hint.pickup",
+            "swing": true,
+            "on_interact": {
+              "filters": {
+                "test": "is_sneaking",
+                "subject": "other",
+                "value": true
+              },
+              "event": "myname:pickup",
+              "target": "self"
+            }
+          }
+        ]
+      }
+    },
+    "events": {
+      "myname:pickup": {
+        "queue_command": {
+          "command": [
+            "give @s[type=player] myname:aquatitan_tectonic_texture 1",
+            "kill @s"
+          ]
+        }
+      }
+    }
+  }
+}

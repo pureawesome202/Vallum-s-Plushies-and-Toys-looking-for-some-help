@@ -13,7 +13,7 @@
 				"texture": "vallumraptor_plushies_1_1"
 			},
 			"minecraft:entity_placer": {
-				"entity": "Vallumraptor_plushie"
+				"entity": "myname:vallumraptor_plushie_1_1_placed"
 			}
 		}
 	}

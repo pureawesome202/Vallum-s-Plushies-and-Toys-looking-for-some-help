@@ -1,0 +1,32 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "myname:vallumraptor_plushie_2_2_placed",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/attachable/geo 2/vallumraptor_plushie_2"
+      },
+      "geometry": {
+        "default": "geometry.vallumraptor_plushie_2_placed"
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#553399",
+        "overlay_color": "#88CCFF"
+      },
+      "animations": {
+        "idle": "animation.vallumraptor_plushie_2_placed.idle"
+      },
+      "scripts": {
+        "animate": [
+          "idle"
+        ]
+      }
+    }
+  }
+}

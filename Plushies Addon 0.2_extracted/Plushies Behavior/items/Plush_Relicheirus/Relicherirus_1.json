@@ -13,7 +13,7 @@
 				"texture": "plush_relicheirus1"
 			},
 			"minecraft:entity_placer": {
-				"entity": "plush_relicheirus_1"
+				"entity": "myname:plush_relicheirus_1_placed"
 			}
 		}
 	}
